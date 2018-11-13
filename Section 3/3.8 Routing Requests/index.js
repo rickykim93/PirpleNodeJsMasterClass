@@ -72,7 +72,7 @@ var server = http.createServer(function(req,res){
 
 // Start the server
 server.listen(3000,function(){
-  console.log('The server is up and running now');
+  console.log('The server is up and running now on port 3000');
 });
 
 // Define all the handlers
